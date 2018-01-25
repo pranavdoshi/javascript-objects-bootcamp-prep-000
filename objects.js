@@ -6,5 +6,10 @@ var playlist = {
 
 function updatePlaylist(playlist,artistName,title)
 {
-  
+  return Object.assign({},playlist,{[artistName]:value});
+}
+
+function removeFromPlaylist(playlist,artistName)
+{
+  return delete playlist.artistName;
 }
