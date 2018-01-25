@@ -4,4 +4,7 @@ var playlist = {
   Arijit : "testing"
 };
 
-function updatePlaylist(playlist,)
+function updatePlaylist(playlist,artistName,title)
+{
+  
+}
